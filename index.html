@@ -1,0 +1,183 @@
+Z<!DOCTYPE html>
+<html>
+<head>
+	<title>河北师范大学</title>
+	<meta charset="utf-8" />
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		/*header-logo及搜索*/
+		.header{
+			width: 1000px;
+			height: 100px;
+			border-top:5px solid darkblue;
+			margin: 0px auto;
+		}
+		.logo{
+			float: left;
+		}
+		.logo>img{
+			margin-top:15px;
+		}
+		.search{
+			float: right;
+		}
+		.search input{
+			width: 200px;
+			height: 30px;
+			border:1px solid #666;
+			text-indent: 10px;
+			margin-top:30px;
+			margin-right: 30px;
+		}
+		/*nav-导航*/
+		.nav{
+			width: 1000px;
+			height: 60px;
+			border:5px solid #ccc;
+			margin: 0px auto;
+		}
+		/*banner-banner图*/
+		.banner{
+			width: 1257px;
+			height: 397px;
+			border:5px solid #ccc;
+			margin: 0px auto;
+		}
+		.banner:hover .hs{
+			width: 1000px;
+			height: 73px;
+			background: url(images/3.png) no-repeat;
+			margin:0px auto;
+			position: relative;
+			top:-77px;
+			left: 0px;
+		}
+		/*content-网页正文*/
+		.content{
+			width: 1000px;
+			height: 320px;
+			margin: auto;
+			border:5px solid #ccc;
+		}
+		.index_con{
+			width: 480px;
+			height: 300px;
+			float: left;
+			margin:5px;
+			border:5px solid #ccc;
+		}
+		.index_h1{
+			height: 50px;
+			line-height: 50px;
+			background-image:url(images/index_h1.gif);
+			background-repeat: no-repeat;
+			background-position:bottom;
+			font-size:18px;
+		}
+		.index_h1 span {
+            float: right;
+            padding-right: 10px;
+            color: #5c5c5c;
+            font-weight: 100;
+            font-size: 14px;
+        }
+        .index_top_news {
+            height: 105px;
+            background-color: #EDEDED;
+            font-size: 14px;
+        }
+        .index_top_span {
+            float: left;
+            font-size: 24px;
+            line-height: 105px;
+            width: 100px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        .index_top_news_right {
+            padding-top: 10px;
+            line-height: 23px;
+            color: #999999;
+        }
+        .index_h2 {
+            height: 29px;
+            line-height: 34px;
+            font-size: 16px;
+            color: #333;
+        }
+        .index_con_news li {
+            line-height: 35px;
+            border-bottom: 1px dashed #cccccc;
+            color: #b3b3b3;
+            font-size: 14px;
+        }
+        li {
+            list-style: none;
+        }
+        a{
+            color: #333;
+            text-decoration: none;
+        }
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="images/logo.png" alt="河北师范大学" />
+		</div>
+		<div class="search">
+			<form>
+				<input type="text" name="inp1" value="搜索"/>
+			</form>
+		</div>
+	</div>
+	<div class="nav">
+	</div>
+	<div class="banner">
+		<img src="images/banner_00.gif" />
+		<div class="hs"></div>
+	</div>
+	<div class="content">
+		<div class="index_con">
+			<h1 class="index_h1">
+				师大新闻<span><a href="#">更多</a></span>
+			</h1>
+			<div class="index_con_news">
+                <div class="index_top_news">                  
+                    <span class="index_top_span">05-14</span>
+                    <div class="index_top_news_right" style="padding-right:10px;">
+                        <h1 class="index_h2" style="overflow:hidden;height:30px;line-height:30px;">
+                            <a href="#">学校党委对安全隐患整改提出明确要求</a>
+                        </h1>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5月14日上午，党委书记戴建兵、校长刘敬泽、纪委书记杨士彬专项巡查校园安全工作。结合连日来的...
+                    </div> 
+                </div>
+                <ul>
+                    <li>
+                        <span>05-15</span>
+                        <a href="#">
+                            软件学院举办“五四精神照亮复兴征程，橙白繁星谱写时代华...
+                        </a>
+                    </li>
+                    <li>
+                        <span>05-15</span>
+                        <a href="#">
+                            软件学院举办“五四精神照亮复兴征程，橙白繁星谱写时代华...
+                        </a>
+                    </li>
+                    <li>
+                        <span>05-15</span>
+                        <a href="#">
+                            软件学院举办“五四精神照亮复兴征程，橙白繁星谱写时代华...
+                        </a>
+                    </li>
+                </ul>
+            </div>
+		</div>
+		<div class="index_con"></div>
+	</div>
+</body>
+</html>
